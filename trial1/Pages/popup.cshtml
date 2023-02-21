@@ -1,0 +1,27 @@
+﻿@page
+@model trial1.Pages.popupModel
+@{
+}
+<div id="dialogContent">
+    <p>This is the content of the pop-up</p>
+</div>
+<script>
+    $(document).ready(function () {
+        var dialogOptions = {
+            title: "My Dialog",
+            width: 400,
+            height: 200,
+            autoOpen: false,
+            modal: true,
+            resizable: false,
+            draggable: false,
+            closeText: "Close"
+        };
+
+        $("#dialogContent").dialog(dialogOptions);
+
+        $("#openDialogButton").click(function () {
+            $("#dialogContent").dialog("open");
+        });
+    });
+</script>

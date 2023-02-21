@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fluentui/react": "^8.105.11",
+    "@fluentui/web-components": "^2.5.12",
+    "@microsoft/fast-element": "^1.11.0",
+    "lodash-es": "^4.17.21"
+  }
+}
